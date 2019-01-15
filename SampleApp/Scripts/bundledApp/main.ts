@@ -12,7 +12,7 @@ export class Program {
         const pilot: Car = {
             id: 1,
             make: "Honda",
-            model: "Accord"
+            model: "Pilot"
         };
 
         this._print(pilot);

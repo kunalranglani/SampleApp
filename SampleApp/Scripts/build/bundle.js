@@ -95,46 +95,34 @@ module.exports = __webpack_require__(1);
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;
-
-/// <reference path="../../node_modules/@types/jquery/JQuery.d.ts" />
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/// <reference path="../../node_modules/@types/jquery/JQuery.d.ts" />
 !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports], __WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports) {
-  "use strict";
-
-  Object.defineProperty(exports, "__esModule", {
-    value: true
-  });
-  $(function () {
-    var program = new Program();
-    program.run();
-  });
-
-  var Program =
-  /** @class */
-  function () {
-    function Program() {}
-
-    Program.prototype.run = function () {
-      var pilot = {
-        id: 1,
-        make: "Honda",
-        model: "Accord"
-      };
-
-      this._print(pilot);
-    };
-
-    Program.prototype._print = function (car) {
-      $(".print").append("<div>This is a " + car.make + " " + car.model);
-    };
-
-    return Program;
-  }();
-
-  exports.Program = Program;
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    $(function () {
+        var program = new Program();
+        program.run();
+    });
+    var Program = /** @class */ (function () {
+        function Program() {
+        }
+        Program.prototype.run = function () {
+            var pilot = {
+                id: 1,
+                make: "Honda",
+                model: "Pilot"
+            };
+            this._print(pilot);
+        };
+        Program.prototype._print = function (car) {
+            $(".print").append("<div>This is a " + car.make + " " + car.model);
+        };
+        return Program;
+    }());
+    exports.Program = Program;
 }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+
 
 /***/ })
 /******/ ]);

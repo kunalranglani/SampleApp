@@ -13,7 +13,7 @@ define(["require", "exports"], function (require, exports) {
             var pilot = {
                 id: 1,
                 make: "Honda",
-                model: "Accord"
+                model: "Pilot"
             };
             this._print(pilot);
         };

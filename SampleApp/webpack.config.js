@@ -3,7 +3,7 @@ var webpack = require('webpack');
 var unminifiedWebpackPlugin = require('unminified-webpack-plugin');
 
 module.exports = {
-    entry: ['./Scripts/bundledApp/main'],
+    entry: ['./Scripts/bundledApp/main.ts'],
     output: {
         path: path.resolve(__dirname, './Scripts/build'),
         filename: 'bundle.min.js'

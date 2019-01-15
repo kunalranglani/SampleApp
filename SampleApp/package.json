@@ -19,7 +19,8 @@
     "requirejs": "^2.3.6"
   },
   "scripts": {
-    "build": "webpack"
+    "tsc": "tsc",
+    "webpack": "webpack"
   },
   "babel": {
     "presets": [
