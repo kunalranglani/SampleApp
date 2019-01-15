@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.2",
+    "unminified-webpack-plugin": "^2.0.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.29",
+    "requirejs": "^2.3.6"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}

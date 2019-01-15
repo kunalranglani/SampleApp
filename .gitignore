@@ -3,3 +3,6 @@
 ################################################################################
 
 /SampleApp/node_modules
+/SampleApp/obj/Debug
+/SampleApp/bin
+/.vs

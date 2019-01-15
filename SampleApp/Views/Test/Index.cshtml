@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Test Page";
+}
+
+<div>Test</div>
+
+<div class="print"></div>
+
+@section scripts
+{
+    @Scripts.Render(" ~/Scripts/build/bundle.js")
+
+    <script>
+        require(["/Scripts/app/app.js"],
+            function () {
+            }
+        );
+    </script>
+
+
+}
