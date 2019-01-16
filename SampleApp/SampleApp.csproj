@@ -198,6 +198,10 @@
     <TypeScriptCompile Include="Scripts\app\models.ts" />
     <TypeScriptCompile Include="Scripts\bundledApp\main.ts" />
     <TypeScriptCompile Include="Scripts\bundledApp\models.ts" />
+    <TypeScriptCompile Include="Scripts\reactApp\Components\Car.tsx" />
+    <TypeScriptCompile Include="Scripts\reactApp\index.ts" />
+    <TypeScriptCompile Include="Scripts\reactApp\main.tsx" />
+    <TypeScriptCompile Include="Scripts\reactApp\models.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

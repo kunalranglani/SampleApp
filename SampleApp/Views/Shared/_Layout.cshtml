@@ -37,8 +37,11 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/node_modules/babel-polyfill/dist/polyfill.min.js")
     @Scripts.Render("~/node_modules/requirejs/require.js")
-   
+    @*@Scripts.Render("~/node_modules/react/cjs/react.production.min.js")
+    @Scripts.Render("~/node_modules/react-dom/cjs/react-dom.production.min.js")*@
+
     @RenderSection("scripts", required: false)
 </body>
 </html>

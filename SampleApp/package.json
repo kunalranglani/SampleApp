@@ -4,10 +4,12 @@
   "private": true,
   "devDependencies": {
     "@babel/core": "^7.2.2",
+    "awesome-typescript-loader": "^5.2.1",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.5",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "source-map-loader": "^0.2.4",
     "ts-loader": "^5.3.3",
     "typescript": "^3.2.2",
     "unminified-webpack-plugin": "^2.0.0",
@@ -16,6 +18,12 @@
   },
   "dependencies": {
     "@types/jquery": "^3.3.29",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "@types/requirejs": "^2.1.31",
+    "object-assign": "^4.1.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "requirejs": "^2.3.6"
   },
   "scripts": {
