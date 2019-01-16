@@ -20,7 +20,8 @@ module.exports = {
             loader: 'ts-loader'
         }]
     },
+    devtool: 'source-map',
     plugins: [
-        new unminifiedWebpackPlugin()
+        new unminifiedWebpackPlugin({ sourcemap: true })
     ]
 }

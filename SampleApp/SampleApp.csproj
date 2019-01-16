@@ -194,8 +194,8 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\app\app.ts" />
-    <TypeScriptCompile Include="Scripts\app\models.ts" />
+    <TypeScriptCompile Include="Scripts\bundledApp\Components\Car.tsx" />
+    <TypeScriptCompile Include="Scripts\bundledApp\reactCar.tsx" />
     <TypeScriptCompile Include="Scripts\bundledApp\main.ts" />
     <TypeScriptCompile Include="Scripts\bundledApp\models.ts" />
   </ItemGroup>
