@@ -1,5 +1,4 @@
-/// <reference path="../../node_modules/@types/jquery/JQuery.d.ts" />
-define(["require", "exports"], function (require, exports) {
+define(["require", "exports", "./reactCar"], function (require, exports, reactCar_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     $(function () {
@@ -16,9 +15,11 @@ define(["require", "exports"], function (require, exports) {
                 model: "Pilot"
             };
             this._print(pilot);
+            var tesla = new reactCar_1.ReactCar();
+            tesla.run();
         };
         Program.prototype._print = function (car) {
-            $(".print").append("<div>This is a " + car.make + " " + car.model);
+            $(".jquery").append("<div>This is a " + car.make + " " + car.model);
         };
         return Program;
     }());

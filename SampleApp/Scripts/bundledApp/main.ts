@@ -1,6 +1,5 @@
-﻿/// <reference path="../../node_modules/@types/jquery/JQuery.d.ts" />
-
-import { Car } from './models';
+﻿import { Car } from './models';
+import { ReactCar } from './reactCar'
 
 $(() => {
     const program = new Program();
@@ -16,9 +15,12 @@ export class Program {
         };
 
         this._print(pilot);
+
+        const tesla = new ReactCar();
+        tesla.run();
     }
 
     private _print(car: Car) {
-        $(".print").append(`<div>This is a ${car.make} ${car.model}`);
+        $(".jquery").append(`<div>This is a ${car.make} ${car.model}`);
     }
 }
