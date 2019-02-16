@@ -1,3 +1,3 @@
 # SampleApp
 
-Sample mvc app with typescript and webpack
+Sample asp.net mvc app with typescript, react and webpack
